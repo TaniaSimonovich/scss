@@ -1,0 +1,460 @@
+// @import './uikit.scss';
+$colorTextHeader: #1B1A1A;
+$fountText: Poppins;
+$fontSize14: 14px;
+$fontSize15: 15px;
+$fontSize16: 16px;
+$fontSize32: 32px;
+$fontSize64: 64px;
+$colorText: #645C55;
+$colorTextContent: #403E3B;
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+        img{
+            margin-top: 32px;
+            margin-left: 152px;
+        }
+}
+
+.headerTextConteiner{
+    display: flex;
+    margin-left: 359px;
+        div{
+            font-family: $fountText;
+            font-size: $fontSize15;
+            color: $colorTextHeader;
+            margin-left: 32px;
+            margin-top: 33px;
+        }
+        button{
+            border: none;
+            margin-left: 31px;
+            background-color: $colorTextHeader;
+            color: #FFFFFF;
+            width: 155px;
+            height: 46px;
+            margin-top: 22px;
+            border-radius: 14px;
+        }
+}
+
+.mainContainer{
+    display: flex;
+    background-color: #ECE7E4;
+    margin-top: 22px;
+    .mainTitleText{
+        color: $colorTextHeader;
+        font-size: $fontSize14;
+        font-family: $fountText;
+        margin-top: 137px;
+        margin-left: 100px;
+    }
+    .mainTitle{
+        font-family: $fountText;
+        font-size: $fontSize64;
+        color: $colorTextHeader;
+        width: 417px;
+        margin-top: 22px;
+        margin-left: 100px;
+    }
+    .textMain{
+        font-family: $fountText;
+        font-size: $fontSize16;
+        color: $colorTextContent;
+        margin-top: 18px;
+        margin-left: 100px;
+        width: 509px;
+    }
+    .HrefMain{
+        color: $colorTextHeader;
+        font-size: $fontSize16;
+        font-family: $fountText;
+        margin-top: 41px;
+        margin-left: 100px;
+    }
+    img{
+        margin-left: 181px;
+    }
+}
+
+.twoMain{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 336px;
+    .twoTitle{
+        color: $colorTextContent;
+        font-size: $fontSize32;
+        font-family: $fountText;
+        width: 130px;
+    }
+    .textContentTwoMain{
+        margin-left: 133px;
+        div{
+            width: 493px;
+            color: $colorTextContent;
+            font-size: $fontSize16;
+            font-family: $fountText;
+        }
+    }
+    .userContainer{
+        display: flex;
+        margin-top: 18px;
+        .userText{
+            margin-left: 30px;
+            .name{
+                margin-top: 22px;
+                font-family: $fountText;
+                font-size: $fontSize16;
+                color: $colorTextHeader;
+            }
+            .text{
+                color: $colorText;
+                font-family: $fountText;
+                font-size: $fontSize14;
+                margin-top: 2px;
+                margin-left: 0px;
+            }
+        }
+    }
+}
+
+.mainThree{
+    margin-top: 266px;
+    width: 100%;
+    height: 600px;
+    background-image: url('./img/threemainimage.svg');
+    div{
+        color: $colorTextContent;
+        font-family: $fountText;
+        font-size: $fontSize14;
+        width: 137px;
+        margin-left: 1080px;
+    }
+    .textThree{
+        margin-left: 1080px;
+        width: 285px;
+        color: $colorTextContent;
+        font-family: $fountText;
+        font-size: $fontSize14;
+    }
+    .flex{
+        display: flex;
+    }
+}
+
+.titleMain{
+    font-family: $fountText;
+    font-size: $fontSize14;
+    color: $colorText;
+    margin-top: 100px;
+    margin-left: 659px;
+}
+
+.titleMainTwo{
+    font-family: $fountText;
+    font-size: 39px;
+    color: $colorTextHeader;
+    margin-top: 13px;
+    margin-left: 486px;
+}
+
+.text{
+    display: flex;
+    margin-top: 47px;
+    margin-left: 76px;
+    .containerText{
+        margin-left: 102px;
+        .imgText{
+            margin-left: 25%;
+            width: 112px;
+            height: 117px;
+    }
+    .titleText{
+        margin-left: 35%;
+        margin-top: 15px;
+    }
+        .textText{
+            width: 294px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+}
+
+.mainFour{
+    display: block;
+    margin-top: 110px;
+    width: 100%;
+    height: 600px;
+    background-image: url('./img/image5.svg');
+    .theeTitle{
+        color: $colorTextContent;
+        font-family: $fountText;
+        font-size: $fontSize14;
+        width: 137px;
+        margin-left: 1080px;
+        margin-top: 266px;
+    }
+    .textFour{
+        color: $colorTextContent;
+        font-family: $fountText;
+        font-size: $fontSize14;
+        margin-left: 1080px;
+    }
+}
+
+.mainLogo{
+    width: 100%;
+    display: flex;
+    height: 410px;
+    background-color: $colorTextContent;
+    .textLogo{
+        margin-top: 135px;
+        margin-left: 136px;
+        .logoTitle{
+            font-family: $fountText;
+            font-size: $fontSize14;
+            color: #ECE7E4;
+        }
+        .logoMainTitle{
+            font-family: $fountText;
+            color: #FFFFFF;
+            font-size: $fontSize32;
+        }
+        .logoText{
+            font-family: $fountText;
+            font-size: $fontSize15;
+            color: #ECE7E4;
+            margin-top: 14px;
+            width: 457px;
+        }
+    }
+}
+
+.logo{
+    margin-left: 91px;
+    div{
+        margin-top: 96px;
+        img{
+            margin-left: 96px;
+        }
+    }
+}
+
+.imgMainScreen{
+    height: 600px;
+    .imgMainScreenTitle{
+        margin-top: 266px;
+        margin-left: 60px;
+        font-family: $fountText;
+        font-size: $fontSize14;
+        color: $colorTextContent;
+    }
+    .imgMainScreenText{
+        width: 285px;
+        font-family: $fountText;
+        font-size: $fontSize14;
+        color: $colorText;
+        margin-left: 60px;
+    }
+}
+
+.screen{
+    width: 100%;
+    background-color: #F7F7F7;
+    padding-top: 113px;
+    padding-bottom: 111px;
+    .screenTitle{
+        font-family: $fountText;
+        font-size: 39px;
+        color: $colorTextHeader;
+        margin-top: 113px;
+        margin-left: 136px;
+    }
+    .screenText{
+        font-family: $fountText;
+        font-size: 24px;
+        color: $colorText;
+        margin-top: 15px;
+        margin-left: 136px;
+        width: 581px;
+    }
+    .flex{
+        margin-top: 44px;
+        display: flex;
+        .oneImg{
+            margin-left: 138px;
+        }
+        .imgBlock{
+            .imgBlockTitle{
+                font-family: $fountText;
+                font-size: $fontSize14;
+                color: $colorText;
+                margin-top: 40px;
+                margin-left: 40px;
+                position: absolute;
+                z-index: 3;
+            }
+            .imgBlockText{
+                font-family: $fountText;
+                font-size: 23px;
+                color: $colorTextContent;
+                margin-left: 40px;
+                position: absolute;
+                z-index: 3;
+                margin-top: 58px;
+            }
+            button{
+                position: absolute;
+                z-index: 3;
+                margin-left: 39px;
+                margin-top: 370px;
+                width: 133px;
+                height: 46px;
+                border-radius: 14px;
+                border: none;
+                background-color: $colorTextHeader;
+                color: #FFFFFF;
+            }
+            img{
+                position: relative;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+    }
+    .href{
+        margin-top: 53px;
+        margin-left: 653px;
+        font-size: $fontSize14;
+        color: $colorTextHeader;
+        font-family: $fountText;
+    }
+}
+
+.mainText{
+    display: flex;
+    height: 590px;
+    .textMainUser{
+        .title{
+        font-family: $fountText;
+        font-size: 38px;
+        color: $colorTextContent;
+        margin-top: 96px;
+        margin-left: 136px;
+    }
+    .textTitle{
+        width: 358px;
+        margin-left: 136px;
+        font-family: $fountText;
+        font-size: 15px;
+        color: $colorText;
+    }
+    .href{
+        margin-left: 136px;
+        font-family: $fountText;
+        font-size: 15px;
+        color: $colorTextHeader;
+    }
+}
+
+.users{
+    margin-top: 56px;
+    margin-left: 203px;
+    .user{
+        display: flex;
+        margin-top: 52px;
+        .text{
+            display: block;
+            margin-left: 30px;
+            margin-top: 24px;
+            margin-right: 114px;
+            .name{
+                font-size: 17px;
+                font-family: $fountText;
+                color: $colorTextHeader;
+            }
+        }
+    }
+    .usersFlex{
+        display: flex;
+        .user{
+            display: flex;
+            .text{
+                display: block;
+                margin-left: 30px;
+                margin-top: 24px;
+                margin-right: 114px;
+                .name{
+                    font-size: 17px;
+                    font-family: $fountText;
+                    color: $colorTextHeader;
+                }
+                .twoName{
+                    font-size: $fontSize14;
+                    font-family: $fountText;
+                    color: $colorText;
+                }
+            }
+
+        }
+    }
+}
+}
+
+.mainLast{
+    height: 314px;
+    background-color: #E5E5E5;
+    display: flex;
+    .mainLastInfi{
+        margin-top: 100px;
+        margin-left: 136px;
+        .text{
+            margin-left: 0px;
+            font-family: $fountText;
+            font-size: $fontSize14;
+            color: $colorText;
+        }
+        .title{
+            width: 569px;
+            font-family: $fountText;
+            font-size: 40px;
+            color: $colorTextHeader;
+        }
+    }
+    .href{
+        margin-top: 180px;
+        margin-left: 474px;
+        font-family: $fountText;
+        font-size: $fontSize16;
+        color: $colorTextHeader;
+    }
+}
+
+.footer{
+    display: flex;
+    height: 204px;
+    background-color: #F7F7F7;
+    .footerText{
+        margin-top: 62px;
+        margin-left: 136px;
+        .footerInfo{
+            width: 362px;
+            margin-top: 20px;
+        }
+    }
+    .mass{
+        margin-top: 120px;
+        margin-left: 810px;
+        img{
+            margin-left: 20px;
+        }
+    }
+}
